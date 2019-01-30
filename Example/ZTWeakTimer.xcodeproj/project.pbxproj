@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4DC50D474673EFEB82CC40A0 /* Pods_ZTWeakTimer_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 07498E0FF4976957B50B2762 /* Pods_ZTWeakTimer_Tests.framework */; };
-		5A67B90C9A2F15031747FC8C /* Pods_ZTWeakTimer_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 66A0FEC30E5A82167EC5ABF6 /* Pods_ZTWeakTimer_Example.framework */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -24,6 +22,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		C7F72A56F0AE1D1FA20E4271 /* libPods-ZTWeakTimer_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EF02C53227E4DB4E48BC2685 /* libPods-ZTWeakTimer_Example.a */; };
+		E6BE8CA422014FEB00366895 /* ZTTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E6BE8CA322014FEB00366895 /* ZTTimerViewController.m */; };
+		F2CEBF059BAD697D55188371 /* libPods-ZTWeakTimer_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C27EF0E93811A69FEBCDB34F /* libPods-ZTWeakTimer_Tests.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07498E0FF4976957B50B2762 /* Pods_ZTWeakTimer_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTWeakTimer_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		176B638E85C1CD69E2223D93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		176B638E85C1CD69E2223D93 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		3AD6762265649D1E1D6878EB /* Pods-ZTWeakTimer_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTWeakTimer_Example.debug.xcconfig"; path = "Target Support Files/Pods-ZTWeakTimer_Example/Pods-ZTWeakTimer_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		437C743E31635DAD6FBC0174 /* Pods-ZTWeakTimer_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTWeakTimer_Tests.debug.xcconfig"; path = "Target Support Files/Pods-ZTWeakTimer_Tests/Pods-ZTWeakTimer_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* ZTWeakTimer_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZTWeakTimer_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,13 +60,16 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6003F5BB195388D20070C39A /* Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tests.m; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		66A0FEC30E5A82167EC5ABF6 /* Pods_ZTWeakTimer_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZTWeakTimer_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		73212B10014AAD7AAC5383BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		73212B10014AAD7AAC5383BC /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8D89682B557ADC7B0D803B58 /* Pods-ZTWeakTimer_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTWeakTimer_Tests.release.xcconfig"; path = "Target Support Files/Pods-ZTWeakTimer_Tests/Pods-ZTWeakTimer_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C27EF0E93811A69FEBCDB34F /* libPods-ZTWeakTimer_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZTWeakTimer_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D293BEA3BF9DDDB05C5BD8C7 /* Pods-ZTWeakTimer_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZTWeakTimer_Example.release.xcconfig"; path = "Target Support Files/Pods-ZTWeakTimer_Example/Pods-ZTWeakTimer_Example.release.xcconfig"; sourceTree = "<group>"; };
-		EA77DD4F66664461F3397436 /* ZTWeakTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = ZTWeakTimer.podspec; path = ../ZTWeakTimer.podspec; sourceTree = "<group>"; };
+		E6BE8CA222014FEB00366895 /* ZTTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ZTTimerViewController.h; sourceTree = "<group>"; };
+		E6BE8CA322014FEB00366895 /* ZTTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZTTimerViewController.m; sourceTree = "<group>"; };
+		EA77DD4F66664461F3397436 /* ZTWeakTimer.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = ZTWeakTimer.podspec; path = ../ZTWeakTimer.podspec; sourceTree = "<group>"; };
+		EF02C53227E4DB4E48BC2685 /* libPods-ZTWeakTimer_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZTWeakTimer_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +80,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				5A67B90C9A2F15031747FC8C /* Pods_ZTWeakTimer_Example.framework in Frameworks */,
+				C7F72A56F0AE1D1FA20E4271 /* libPods-ZTWeakTimer_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +91,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				4DC50D474673EFEB82CC40A0 /* Pods_ZTWeakTimer_Tests.framework in Frameworks */,
+				F2CEBF059BAD697D55188371 /* libPods-ZTWeakTimer_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +126,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				66A0FEC30E5A82167EC5ABF6 /* Pods_ZTWeakTimer_Example.framework */,
-				07498E0FF4976957B50B2762 /* Pods_ZTWeakTimer_Tests.framework */,
+				EF02C53227E4DB4E48BC2685 /* libPods-ZTWeakTimer_Example.a */,
+				C27EF0E93811A69FEBCDB34F /* libPods-ZTWeakTimer_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -140,6 +143,8 @@
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				E6BE8CA222014FEB00366895 /* ZTTimerViewController.h */,
+				E6BE8CA322014FEB00366895 /* ZTTimerViewController.m */,
 			);
 			name = "Example for ZTWeakTimer";
 			path = ZTWeakTimer;
@@ -193,7 +198,6 @@
 				437C743E31635DAD6FBC0174 /* Pods-ZTWeakTimer_Tests.debug.xcconfig */,
 				8D89682B557ADC7B0D803B58 /* Pods-ZTWeakTimer_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +212,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				62783B906BEE14DC74169C24 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -295,42 +298,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		62783B906BEE14DC74169C24 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-ZTWeakTimer_Example/Pods-ZTWeakTimer_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/ZTWeakTimer/ZTWeakTimer.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputFileListPaths = (
-			);
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ZTWeakTimer.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ZTWeakTimer_Example/Pods-ZTWeakTimer_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		65515D02D86798CA5B363CC7 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			inputFileListPaths = (
 			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ZTWeakTimer_Tests-checkManifestLockResult.txt",
 			);
@@ -344,15 +321,11 @@
 			buildActionMask = 2147483647;
 			files = (
 			);
-			inputFileListPaths = (
-			);
 			inputPaths = (
 				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
 				"${PODS_ROOT}/Manifest.lock",
 			);
 			name = "[CP] Check Pods Manifest.lock";
-			outputFileListPaths = (
-			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-ZTWeakTimer_Example-checkManifestLockResult.txt",
 			);
@@ -368,6 +341,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E6BE8CA422014FEB00366895 /* ZTTimerViewController.m in Sources */,
 				6003F59E195388D20070C39A /* ZTAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* ZTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
