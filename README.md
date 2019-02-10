@@ -1,4 +1,4 @@
-# ZTWeakTimer
+# ZTWeakTimer--解决NSTimer循环引用问题
 
 [![CI Status](https://img.shields.io/travis/sacrifice123/ZTWeakTimer.svg?style=flat)](https://travis-ci.org/sacrifice123/ZTWeakTimer)
 [![Version](https://img.shields.io/cocoapods/v/ZTWeakTimer.svg?style=flat)](https://cocoapods.org/pods/ZTWeakTimer)
