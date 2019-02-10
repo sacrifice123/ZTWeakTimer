@@ -10,13 +10,13 @@ To run the example project, clone the repo, and run `pod install` from the Examp
 
 ## 用法简介
 引入ZTWeakTimer.h头文件按需调用如下方法：
-+ (NSTimer *) scheduledTimerWithTimeInterval:(NSTimeInterval)interval
+ + (NSTimer *) scheduledTimerWithTimeInterval:(NSTimeInterval)interval
                                       target:(id)aTarget
                                     selector:(SEL)aSelector
                                     userInfo:(id)userInfo
                                      repeats:(BOOL)repeats;
 
-+ (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)interval
+ + (NSTimer *)scheduledTimerWithTimeInterval:(NSTimeInterval)interval
                                       block:(ZTTimerHandler)block
                                    userInfo:(id)userInfo
                                     repeats:(BOOL)repeats;
